@@ -139,7 +139,7 @@ bool Box::Init(IDirect3DDevice9* pDevice, float width, float height, float x, fl
 
 	m_cColor = color;
 
-	m_BarRect = { m_fX, m_fY, m_fX + m_fWidth, m_fY + m_fHeight };
+	m_BarRect = { static_cast<LONG>(m_fX), static_cast<LONG>(m_fY), static_cast<LONG>(m_fX + m_fWidth), static_cast<LONG>(m_fY + m_fHeight) };
 
 	initialized = true;
 
