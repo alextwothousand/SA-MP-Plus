@@ -150,7 +150,7 @@ ToggleNightVision(playerid, bool:toggle);
 ToggleThermalVision(playerid, bool:toggle);
 SAMPP_ExecuteCallback(type, {Float,_}:...);
 
-// Experimental/Unstabl
+// Experimental/Unstable
 SetPlayerCheckpointEx(playerid, Float:x, Float:y, Float:z, Float:size, colour = 0xFF000020, period = 1024, Float:pulse = 0.1, rotation_rate = 0, bool:check_z = true);
 SetPlayerCheckpointColour(playerid, colour);
 SetPlayerRaceCheckpointEx(playerid, type, Float:x, Float:y, Float:z, Float:point_x, Float:point_y, Float:point_z, Float:size, colour = 0xFF000020, period = 1024, Float:pulse = 0.1, rotation_rate = 0);
