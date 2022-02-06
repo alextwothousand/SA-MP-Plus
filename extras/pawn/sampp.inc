@@ -1,3 +1,11 @@
+#if defined _inc_sampp
+    #undef _inc_sampp
+#endif
+
+#if defined _sampp_included
+    #endinput
+#endif
+#define _sampp_included
 
 #define HUD_COMPONENT_ALL 0
 #define HUD_COMPONENT_AMMO 1

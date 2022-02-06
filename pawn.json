@@ -1,0 +1,22 @@
+{
+    "user": "alextwothousand",
+    "repo": "SA-MP-Plus",
+    "include_path": "extras/pawn",
+    "resources": [
+        {
+            "name": "sampp_server.so",
+            "archive": false,
+            "platform": "linux",
+            "plugins": ["plugins/sampp_server.so"]
+        },
+        {
+            "name": "sampp_server.dll",
+            "archive": false,
+            "platform": "windows",
+            "plugins": ["plugins/sampp_server.dll"]
+        }
+    ],
+    "runtime": {
+        "plugins": ["alextwothousand/SA-MP-Plus"]
+    }
+}
